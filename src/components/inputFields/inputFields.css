@@ -1,0 +1,54 @@
+.columnn {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.roww {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.roww:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.cardd {
+  box-shadow: var(--box-shadow);
+  padding: 16px;
+  text-align: center;
+  background-color: var(--main-bg);
+  border-radius: var(--border-radius);
+}
+.button2{
+  
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 0.8em 1.5em 0.8em 1.2em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, var(--main-color) 0%, rgba(132,116,254,1) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em var(--main-color);
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+ }
+ input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid var(--main-color);
+}
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .columnn {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}

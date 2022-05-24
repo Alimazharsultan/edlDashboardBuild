@@ -1,0 +1,34 @@
+[
+    {
+        "display_name": "AIEMS Lab",
+        "route": "/AIEMS_lab",
+        "icon": "bx bx-location-plus"
+    },
+    {
+        "display_name": "Data Center",
+        "route": "/data_center",
+        "icon": "bx bx-location-plus"
+    },
+    
+    {
+        "display_name": "Data Log",
+        "route": "/datalog",
+        "icon": "bx bx-data"
+    },
+    {
+        "display_name": "Analytics",
+        "route": "/analytics",
+        "icon": "bx bx-bar-chart-alt"
+    },
+    
+    {
+        "display_name": "settings",
+        "route": "/settings",
+        "icon": "bx bx-cog"
+    },
+    {
+        "display_name": "Logout",
+        "route": "/logout",
+        "icon": "bx bx-exit"
+    }
+]

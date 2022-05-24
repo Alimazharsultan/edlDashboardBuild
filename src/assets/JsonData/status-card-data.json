@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "bx bxs-thermometer",
+        "count": "24",
+        "title": "Temperature"
+    },
+    {
+        "icon": "bx bx-droplet",
+        "count": "65",
+        "title": "Humidity"
+    },
+    {
+        "icon": "bx bx-bulb",
+        "count": "23",
+        "title": "Luminance"
+    },
+    {
+        "icon": "bx bx-anchor",
+        "count": "41",
+        "title": "Pressure"
+    }
+]
